@@ -6,7 +6,7 @@ function morningGreeter() {
   return "Goedemorgen";
 }
 const greeting = morningGreeter();
-console.log(morningGreeter());
+console.log(greeting);
 
 /* Opdracht 1 */
 // Schrijf een functie genaamd getSchool, die de string "Novi Hogeschool" teruggeeft
@@ -16,7 +16,7 @@ function getSchool() {
     return "Novi Hogeschool"
 }
  const school = getSchool();
-console.log(getSchool());
+console.log(school);
 
 /* Opdracht 2 */
 // Schrijf een functie genaamd compliment, die jou een complimentje geeft!
@@ -26,7 +26,7 @@ function giveCompliment() {
     return "Lekker bezig met die functies, Jan!";
 }
  const compliment = giveCompliment();
- console.log(giveCompliment)
+ console.log(compliment)
 
 
 
@@ -38,7 +38,7 @@ function getGrades(){
     return[8, 8.5, 6, 7]
 }
 const grades = getGrades();
-console.log(getGrades());
+console.log(grades);
 
 /* Opdracht 4 */
 // Schrijf een functie genaamd getDetails, die een object met daarin jouw eigen naam en achternaam teruggeeft.
@@ -47,6 +47,7 @@ function getDetails(){
     return { firstname: 'Jan', lastname: 'Janssen'};
 }
 const details = getDetails();
-console.log(getDetails());
+console.log(details);
+
 
 
